@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61AC5C13223750120076125F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AC5C12223750120076125F /* AppDelegate.m */; };
+		61AC5C16223750120076125F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AC5C15223750120076125F /* ViewController.m */; };
+		61AC5C19223750120076125F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AC5C17223750120076125F /* Main.storyboard */; };
+		61AC5C1B223750130076125F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AC5C1A223750130076125F /* Assets.xcassets */; };
+		61AC5C1E223750130076125F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AC5C1C223750130076125F /* LaunchScreen.storyboard */; };
+		61AC5C21223750130076125F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AC5C20223750130076125F /* main.m */; };
+		61AC5C2A223751E20076125F /* LYUFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AC5C29223751E20076125F /* LYUFix.m */; };
+		715E610394612FE0A244AD78 /* libPods-LYUFix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E22C80B7F00EB28D8A937D76 /* libPods-LYUFix.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CEF638762A1D9BC41E6A450 /* Pods-LYUFix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYUFix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYUFix/Pods-LYUFix.debug.xcconfig"; sourceTree = "<group>"; };
+		61AC5C0E223750120076125F /* LYUFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYUFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61AC5C11223750120076125F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61AC5C12223750120076125F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61AC5C14223750120076125F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61AC5C15223750120076125F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61AC5C18223750120076125F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61AC5C1A223750130076125F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61AC5C1D223750130076125F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61AC5C1F223750130076125F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61AC5C20223750130076125F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61AC5C28223751E20076125F /* LYUFix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYUFix.h; sourceTree = "<group>"; };
+		61AC5C29223751E20076125F /* LYUFix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYUFix.m; sourceTree = "<group>"; };
+		DBDBDC55BC140294FCCBD9BA /* Pods-LYUFix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYUFix.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYUFix/Pods-LYUFix.release.xcconfig"; sourceTree = "<group>"; };
+		E22C80B7F00EB28D8A937D76 /* libPods-LYUFix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYUFix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61AC5C0B223750120076125F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715E610394612FE0A244AD78 /* libPods-LYUFix.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054ABF6C8552E590EF66E404 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E22C80B7F00EB28D8A937D76 /* libPods-LYUFix.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61AC5C05223750120076125F = {
+			isa = PBXGroup;
+			children = (
+				61AC5C10223750120076125F /* LYUFix */,
+				61AC5C0F223750120076125F /* Products */,
+				8D7179C4EF764ACFE2728420 /* Pods */,
+				054ABF6C8552E590EF66E404 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61AC5C0F223750120076125F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61AC5C0E223750120076125F /* LYUFix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61AC5C10223750120076125F /* LYUFix */ = {
+			isa = PBXGroup;
+			children = (
+				61AC5C27223751B60076125F /* LYUFix */,
+				61AC5C11223750120076125F /* AppDelegate.h */,
+				61AC5C12223750120076125F /* AppDelegate.m */,
+				61AC5C14223750120076125F /* ViewController.h */,
+				61AC5C15223750120076125F /* ViewController.m */,
+				61AC5C17223750120076125F /* Main.storyboard */,
+				61AC5C1A223750130076125F /* Assets.xcassets */,
+				61AC5C1C223750130076125F /* LaunchScreen.storyboard */,
+				61AC5C1F223750130076125F /* Info.plist */,
+				61AC5C20223750130076125F /* main.m */,
+			);
+			path = LYUFix;
+			sourceTree = "<group>";
+		};
+		61AC5C27223751B60076125F /* LYUFix */ = {
+			isa = PBXGroup;
+			children = (
+				61AC5C28223751E20076125F /* LYUFix.h */,
+				61AC5C29223751E20076125F /* LYUFix.m */,
+			);
+			path = LYUFix;
+			sourceTree = "<group>";
+		};
+		8D7179C4EF764ACFE2728420 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CEF638762A1D9BC41E6A450 /* Pods-LYUFix.debug.xcconfig */,
+				DBDBDC55BC140294FCCBD9BA /* Pods-LYUFix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61AC5C0D223750120076125F /* LYUFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61AC5C24223750130076125F /* Build configuration list for PBXNativeTarget "LYUFix" */;
+			buildPhases = (
+				8E90EC31FEBD9B2968D387E9 /* [CP] Check Pods Manifest.lock */,
+				61AC5C0A223750120076125F /* Sources */,
+				61AC5C0B223750120076125F /* Frameworks */,
+				61AC5C0C223750120076125F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYUFix;
+			productName = LYUFix;
+			productReference = 61AC5C0E223750120076125F /* LYUFix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61AC5C06223750120076125F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "吕陈强";
+				TargetAttributes = {
+					61AC5C0D223750120076125F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 61AC5C09223750120076125F /* Build configuration list for PBXProject "LYUFix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61AC5C05223750120076125F;
+			productRefGroup = 61AC5C0F223750120076125F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61AC5C0D223750120076125F /* LYUFix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61AC5C0C223750120076125F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61AC5C1E223750130076125F /* LaunchScreen.storyboard in Resources */,
+				61AC5C1B223750130076125F /* Assets.xcassets in Resources */,
+				61AC5C19223750120076125F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E90EC31FEBD9B2968D387E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYUFix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61AC5C0A223750120076125F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61AC5C2A223751E20076125F /* LYUFix.m in Sources */,
+				61AC5C16223750120076125F /* ViewController.m in Sources */,
+				61AC5C21223750130076125F /* main.m in Sources */,
+				61AC5C13223750120076125F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61AC5C17223750120076125F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61AC5C18223750120076125F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61AC5C1C223750130076125F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61AC5C1D223750130076125F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61AC5C22223750130076125F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61AC5C23223750130076125F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61AC5C25223750130076125F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CEF638762A1D9BC41E6A450 /* Pods-LYUFix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V52PJZH3D9;
+				INFOPLIST_FILE = LYUFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Micah.LYUFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61AC5C26223750130076125F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBDBDC55BC140294FCCBD9BA /* Pods-LYUFix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V52PJZH3D9;
+				INFOPLIST_FILE = LYUFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Micah.LYUFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61AC5C09223750120076125F /* Build configuration list for PBXProject "LYUFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61AC5C22223750130076125F /* Debug */,
+				61AC5C23223750130076125F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61AC5C24223750130076125F /* Build configuration list for PBXNativeTarget "LYUFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61AC5C25223750130076125F /* Debug */,
+				61AC5C26223750130076125F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61AC5C06223750120076125F /* Project object */;
+}
